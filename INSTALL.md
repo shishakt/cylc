@@ -21,16 +21,16 @@ such as `/opt`:
 
 ```bash
 cd /opt
-tar xzf cylc-7.7.0.tar.gz
+tar xzf cylc-7.8.0.tar.gz
 # DO NOT CHANGE THE NAME OF THE UNPACKED CYLC SOURCE DIRECTORY.
-cd cylc-7.7.0
+cd cylc-7.8.0
 export PATH=$PWD/bin:$PATH
 make
 ```
 
 Then make (or update) a symlink to the latest installed version:
 ```bash
-ln -s /opt/cylc-7.7.0 /opt/cylc
+ln -s /opt/cylc-7.8.0 /opt/cylc
 ```
 
 When you type `make`:
@@ -46,7 +46,7 @@ If this is the first installed version of Cylc, copy the wrapper script
 instructions - to point to the Cylc install location:
 
 ```bash
-cp /opt/cylc-7.7.0/usr/bin/cylc /usr/local/bin/
+cp /opt/cylc-7.8.0/usr/bin/cylc /usr/local/bin/
 # (and EDIT /usr/local/bin/cylc as instructed)
 ```
 
